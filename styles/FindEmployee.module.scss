@@ -1,0 +1,88 @@
+.container {
+  background-color: #FAFAFD;
+  padding: 24px 450px;
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 400;
+  .back{
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    border-radius: 32px;
+    padding: 4px;
+    height: 28px;
+    width: 28px;
+  }
+  .title {
+    font-size: 24px;
+    line-height: 140%;
+    color: #141414;
+  }
+  .little {
+    font-size: 14px;
+    line-height: 140%;
+    color: #C1BFD1;
+  }
+  .citiesBox{
+    padding: 16px 8px 0px 24px;
+    background: #FFFFFF;
+    border: 1px solid #E7E8F2;
+    border-radius: 6px;
+    max-height: 285px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar-track {
+      background-color: #FFFFFF;
+    }
+
+    &::-webkit-scrollbar {
+      width: 3px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 7px;
+      background-color: rgba(184, 185, 188, 0.24);
+    }
+    .searchField {
+      background: #E7E8F2;
+      opacity: 0.56;
+      border-radius: 8px;
+      width: 492px;
+    }
+    .cities {
+
+      margin-bottom: 20px;
+
+
+      .citiesIcon {
+        margin-right: 10px;
+        text-align: center;
+        display: block;
+        background: #EFFAF7;
+        border-radius: 10px;
+        height: 56px;
+        width: 56px;
+      }
+
+      .citiesText {
+
+      }
+
+      .specializations {
+        justify-content: space-between;
+        margin: 0;
+        padding: 5px;
+        &:hover {
+          border: 1px solid #E7E8F2;
+        }
+      }
+    }
+  }
+  .buttonBox{
+    margin: 25px 0;
+    .button {
+      padding: 14px 16px;
+      border-radius: 4px;
+      text-transform: none;
+      font-size: 14px;
+    }
+  }
+}

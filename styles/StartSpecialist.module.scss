@@ -1,0 +1,127 @@
+.container {
+  margin: 0;
+  max-width: unset;
+  background-color: #FAFAFD;
+  padding: 64px 450px;
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 400;
+  .title {
+    font-size: 24px;
+    line-height: 140%;
+    color: #141414;
+    margin-bottom: 10px;
+  }
+  .secondary {
+    font-size: 14px;
+    line-height: 140%;
+    color: #C1BFD1;
+    margin-bottom: 30px;
+  }
+  .video {
+    height: 295px;
+    width: 540px;
+    background-color: #E0E0E0;
+    border-radius: 12px;
+    margin-bottom: 30px;
+  }
+  .startSpecialist{
+    width: 540px;
+    height: 48px;
+    border-radius: 4px;
+    text-transform: none;
+    margin-bottom: 30px;
+  }
+  .advantage {
+    .advantageTitle {
+      font-size: 18px;
+      line-height: 22px;
+      color: #000000;
+      margin-bottom: 23px;
+    }
+    .advantageBox {
+      margin-bottom: 23px;
+      .advantageText {
+        font-size: 13px;
+        line-height: 140%;
+        color: #33343D;
+        margin-top: 5px;
+      }
+    }
+  }
+  .getOrder {
+    background-color: #EFFAF7;
+    margin-bottom: 30px;
+    padding: 36px 24px;
+    border-radius: 10px;
+    .titleOrder {
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      color: #141414;
+      margin-bottom: 36px;
+    }
+    .orderBox {
+      display: flex;
+      margin-bottom: 25px;
+
+      .orderText {
+        font-size: 13px;
+        line-height: 140%;
+        color: #33343D;
+        width: 242px;
+        margin-left: 20px;
+      }
+    }
+  }
+  .imagesBox {
+    .image {
+      background-color: #E0E0E0;
+      border-radius: 12px;
+    }
+    .imagesTitle {
+      font-size: 18px;
+      line-height: 22px;
+      color: #000000;
+      margin-top: 15px;
+      margin-bottom: 12px;
+    }
+    .imagesText {
+      font-size: 13px;
+      line-height: 120%;
+      color: #33343D;
+      margin-bottom: 30px;
+    }
+  }
+  .faq {
+    background: #12D3A5;
+    border-radius: 12px;
+    padding: 32px 24px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    .faqTitle {
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      width: 190px;
+      margin: 0 auto;
+      color: #FAFAFD;
+    }
+    .faqBox {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 25px;
+      .faqText {
+        padding: 9px 0;
+        font-size: 16px;
+        line-height: 140%;
+      }
+      .faqMore {
+        font-size: 13px;
+        line-height: 120%;
+        color: #EFF6FF;
+      }
+    }
+
+  }
+}

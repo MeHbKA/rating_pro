@@ -1,0 +1,149 @@
+.container {
+  padding: 30px 375px;
+  background: #FAFAFD;
+  margin: 0;
+  max-width: unset;
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 400;
+  .header {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 25px;
+    .back {
+      background-color: #FFFFFF;
+      border-radius: 50%;
+      position: absolute;
+      left: 20px;
+    }
+    .text {
+      display: flex;
+      font-size: 15px;
+      line-height: 18px;
+      color: #4A4A56;
+      .find {
+        padding: 4px 8px;
+        background-color: #E9E9EB;
+        border-radius: 8px;
+      }
+      .slash {
+        padding: 4px 8px;
+      }
+      .result {
+        padding: 4px 8px;
+      }
+    }
+  }
+
+  .little {
+    font-size: 14px;
+    line-height: 140%;
+    color: #C1BFD1;
+  }
+
+  .title {
+    display: flex;
+    position: relative;
+    margin-bottom: 25px;
+    .text {
+      font-size: 24px;
+      line-height: 140%;
+      color: #141414;
+    }
+    .create {
+      position: absolute;
+      right: 0;
+      padding: 11px 16px;
+      text-transform: none;
+    }
+  }
+
+  .specialistCard {
+    padding: 15px;
+    position: relative;
+    margin-bottom: 25px;
+    .rating {
+      display: flex;
+      justify-content: space-around;
+      width: 65px;
+      font-size: 12px;
+      line-height: 140%;
+      margin-bottom: 15px;
+      .star {
+        height: 15px;
+        width: 15px;
+      }
+      .primary {
+        color: #141414;
+      }
+      .secondary {
+        color:#BDBDBD;
+      }
+    }
+    .addFavourite {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      .icon {
+        height: 15px;
+        width: 15px;
+      }
+    }
+    .title {
+      font-size: 18px;
+      line-height: 22px;
+      color: #33343D;
+      margin: 0;
+    }
+    .categories {
+      font-size: 13px;
+      line-height: 140%;
+      color: rgba(51, 52, 61, 0.56);
+    }
+    .rewards {
+      display: flex;
+      font-size: 12px;
+      line-height: 140%;
+      color: #2196F3;
+      margin: 10px 0;
+      .reward {
+        background: #EFF6FF;
+        border-radius: 4px;
+        margin-right: 5px;
+        padding: 4px 12px;
+      }
+    }
+
+    .specialistInfo {
+      display: flex;
+      position: relative;
+      font-size: 14px;
+      color: #33343D;
+      .avatar {
+        height: 30px;
+        width: 30px;
+      }
+      .name {
+        padding: 11px 0;
+        &:after{
+          content:"•";
+          margin: 5px;
+        }
+      }
+      .city {
+        padding: 11px 0;
+      }
+
+      .viewProfile {
+        position: absolute;
+        right: 0;
+        top: 3px;
+        text-transform: none;
+        font-size: 13px;
+        color: #12D3A5;
+      }
+
+    }
+  }
+}

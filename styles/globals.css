@@ -1,0 +1,46 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Stolzl';
+  font-weight: 400;
+}
+body::-webkit-scrollbar {
+  width: 1px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.MuiMenu-paper {
+  width: 325px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+}
+.MuiMenu-paper > ul {
+  padding: 0;
+}
+.content {
+  padding: 0;
+  margin: 65px 0 0 0;
+  max-width: unset;
+}
+@media (max-width: 425px) {
+  .content {
+    margin: 15px 0;
+  }
+}
+* {
+  box-sizing: border-box;
+}

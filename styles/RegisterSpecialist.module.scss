@@ -1,0 +1,130 @@
+.container {
+  margin: 0;
+  max-width: unset;
+  padding: 24px 288px;
+  background-color: #EEEFF7;
+  font-family: 'Stolzl';
+  font-style: normal;
+  font-weight: 400;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(231, 232, 242, 0.24);
+    border: 1px solid #E7E8F2;
+    padding: 13px 24px;
+    .text {
+      padding: 5px;
+      font-size: 13px;
+      line-height: 140%;
+      color: #33343D;
+    }
+    .button {
+      text-transform: none;
+      font-size: 13px;
+      line-height: 140%;
+      color: #12D3A5;
+    }
+  }
+  .body {
+    padding: 32px 24px;
+    .steps {
+      .step {
+        font-size: 13px;
+        line-height: 140%;
+        color: #12D3A5;
+        margin-bottom: 15px;
+      }
+    }
+    .title {
+      font-size: 20px;
+      line-height: 24px;
+      color: #182550;
+      margin-bottom: 12px;
+    }
+    .description {
+      font-size: 16px;
+      line-height: 150%;
+      color: #222222;
+      margin-bottom: 32px;
+      &:last-child{
+        margin-bottom: 262px;
+      }
+    }
+    .examples {
+      padding: 17px 24px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      font-size: 16px;
+      line-height: 140%;
+      color: #33343D;
+      margin-bottom: 40px;
+      .text {
+        text-transform: none;
+        text-decoration: underline;
+      }
+    }
+    .dragAndDrop {
+      background: rgba(18, 211, 165, 0.03);
+      border: 1px dashed #0CC599;
+      border-radius: 12px;
+      padding: 32px 239px;
+      color: #12D3A5;
+      .folder {
+        height: 42px;
+        width: 63px;
+        margin: 0 130px;
+      }
+      .text {
+        font-size: 13px;
+        line-height: 140%;
+      }
+    }
+    .preShown {
+      display: flex;
+      margin-top: 25px;
+      margin-bottom: 90px;
+      .name {
+        font-size: 11px;
+        line-height: 140%;
+        color: #33343D;
+      }
+    }
+    .searchField {
+      background: #E7E8F2;
+      opacity: 0.56;
+      border-radius: 8px;
+      margin-bottom: 35px;
+    }
+    .categories {
+      .category {
+        font-size: 14px;
+        line-height: 140%;
+        color: #33343D;
+      }
+    }
+  }
+  .nextButton {
+    margin: 0 392px 40px 392px;
+    background-color: #12D3A5;
+    border-radius: 4px;
+    color: #FFFFFF;
+    text-transform: none;
+    padding: 14px 16px;
+  }
+
+  .header{
+    font-size: 13px;
+    line-height: 140%;
+    color: #12D3A5;
+  }
+  .specializations {
+    &>span:first-child {
+      display: none;
+    }
+  }
+  .checked {
+    background-color: #000;
+
+  }
+}

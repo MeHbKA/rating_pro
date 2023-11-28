@@ -1,0 +1,43 @@
+.container {
+  .back {
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    border: 1px solid #EFEFEF;
+    margin: 25px 0;
+  }
+  .titleBox {
+    .title {
+      font-size: 24px;
+      line-height: 140%;
+      color: #33343D;
+    }
+    .description {
+      display: flex;
+      .status {
+        display: flex;
+        background: #E7E8F2;
+        border-radius: 8px;
+        padding: 10px;
+        .text {
+          margin-left: 10px;
+          font-size: 13px;
+          padding: 3px 0;
+        }
+      }
+      .city {
+        padding: 12px;
+        font-size: 13px;
+      }
+      .visits {
+        display: flex;
+        padding: 10px;
+        .start {
+          font-size: 13px;
+        }
+        .end {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

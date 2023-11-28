@@ -1,0 +1,51 @@
+.loginFooter {
+  width: 530px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: calc(100% - 80px);
+  left: 30px;
+  @media (max-width: 960px) {
+    top: calc(100% - 60px);
+  @media screen and (max-width: 425px){
+    top: 100%;
+    width: 100%;
+    left: 0;
+  }
+  }
+  .links {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Stolzl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 140%;
+    color: rgba(51, 52, 61, 0.56);
+    @media screen and (max-width: 425px) {
+      flex-wrap: wrap;
+      .link {
+        padding: 5px;
+      }
+    }
+
+  }
+
+  &>hr {
+    border: 1px solid #E7E8F2;
+    margin: 18px 0;
+  }
+
+  .footerText {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Stolzl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #141414;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+  }
+}

@@ -1,0 +1,245 @@
+.container {
+  position: relative;
+  max-width: unset;
+  padding: 0;
+  margin: 0;
+
+  .right {
+    position: absolute;
+    width: 856px;
+    right: 0;
+    top: 0;
+    @media (max-width: 960px) {
+      display: none;
+    }
+  }
+
+  .left {
+    position: relative;
+    width: 583px;
+    padding: 50px 62px 0 62px;
+    min-height: 1094px;
+    @media (max-width: 960px) {
+      padding: 95px 252px;
+      width: 100%;
+    }
+    @media (max-width: 425px) {
+      padding: 35px 16px;
+      min-height: 100%;
+      width: 100%;
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .title {
+      margin-bottom: 15px;
+      font-family: 'Stolzl';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 43px;
+      text-align: center;
+      letter-spacing: -0.15px;
+      color: #33343D;
+    }
+
+    .little {
+      font-family: 'Stolzl';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 23px;
+      text-align: center;
+      letter-spacing: 0.32px;
+      color: rgba(51, 52, 61, 0.56);
+      margin-bottom: 70px;
+    }
+    .form {
+      &>div {
+        margin-bottom: 10px;
+        & input {
+          height: 27px;
+          font-family: 'Stolzl';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+        }
+      }
+      .login {
+
+      }
+
+      .passField {
+        display: flex;
+        position: relative;
+
+        .password {
+          position: relative;
+        }
+
+        .forgot {
+          position: absolute;
+          right: 0;
+          top: 18px;
+          font-family: 'Stolzl';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 11px;
+          line-height: 140%;
+          color: #12D3A5;
+          text-transform: capitalize;
+        }
+      }
+
+      .formHint {
+        font-family: 'Stolzl';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        color: rgba(51, 52, 61, 0.56);
+        margin-bottom: 85px;
+      }
+    }
+
+    .privacyPolicy {
+      display: flex;
+      margin-bottom: 18px;
+
+      .privacyText {
+        align-items: center;
+        width: 220px;
+        font-family: 'Stolzl';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        color: #33343D;
+        margin: auto 0;
+      }
+
+      .privacyLink {
+        margin-left: 10px;
+        color: #12D3A5;
+        text-transform: uppercase;
+        text-decoration: underline dotted;
+      }
+    }
+
+    .continue {
+      padding: 18px;
+      margin-bottom: 25px;
+    }
+
+    .notRegisteredContainer {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+      @media (max-width: 425px) {
+        display: block;
+        text-align: center;
+      }
+      .notRegistered {
+        font-family: 'Stolzl';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 120%;
+        display: flex;
+        align-items: center;
+        color: rgba(51, 52, 61, 0.56);
+        @media (max-width: 425px){
+          display: block;
+        }
+      }
+
+      .register {
+        font-family: 'Stolzl';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        text-transform: capitalize;
+        color: #4F4F4F;
+      }
+    }
+
+    &>hr{
+      border: 1px solid rgba(184, 185, 188, 0.24);
+    }
+
+    .specButton {
+      border: 1px solid #E7E8F2;
+      box-sizing: border-box;
+      border-radius: 6px;
+      margin: 25px 90px;
+      font-family: 'Stolzl';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 140%;
+      color: #33343D;
+      text-transform: none;
+      padding: 14px 16px;
+      @media screen and (max-width: 425px) {
+        margin: 20px 20%;
+      }
+
+      .specialist {
+        margin-left: 10px;
+        @media (max-width: 425px) {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .registerCode {
+      width: 100% !important;
+      display: flex;
+      justify-content: center;
+
+      & input {
+        border: 1px solid #E5EBF0;
+        border-radius: 15px;
+        margin: 0 7px;
+        &:focus {
+          background: rgba(52, 209, 134, 0.1);
+          border: 1px solid #34D186;
+          caret-color: transparent;
+        }
+      }
+    }
+
+    .codeHints {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+      margin-bottom: 50px;
+
+      .notReceive {
+        font-family: 'Stolzl';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 120%;
+        color: rgba(51, 52, 61, 0.56);
+      }
+      .send {
+        font-family: 'Stolzl';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        color: #4F4F4F;
+        text-transform: none;
+      }
+    }
+
+  }
+
+}
